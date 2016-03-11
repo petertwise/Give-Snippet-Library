@@ -13,7 +13,7 @@ function remove_give_activation_stuff() {
 
 	}
 
-	//Remove Strip Add-on activation banner
+	//Remove Stripe Add-on activation banner
 	remove_action( 'admin_init', 'give_stripe_activation_banner' );
 
 	//Add other remove_actions here...
